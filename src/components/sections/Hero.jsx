@@ -35,7 +35,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.6 }}
           >
-            Hey I’m{" "}
+            Hey I&apos;m{" "}
             <span className="text-blue-600">Md Jafar Ali Shaikh</span>
           </motion.h1>
 
@@ -119,7 +119,7 @@ export default function Hero() {
             >
               <div className="relative h-[360px] w-[280px] overflow-hidden rounded-[24px] bg-slate-200 md:h-[430px] md:w-[330px]">
                 <Image
-                  src="/images/hero/hero-main.jpg"
+                  src="/images/hero/hero.jpg"
                   alt="Md Jafar Ali Shaikh"
                   fill
                   className="object-cover"
