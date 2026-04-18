@@ -28,9 +28,10 @@ export default function About() {
             transition={{ duration: 0.3 }}
           >
             <Image
-              src="/images/hero/hero-main.jpg"
+              src="/images/hero/hero.jpg"
               alt="Md Jafar Ali Shaikh"
               fill
+              unoptimized
               className="object-cover"
             />
           </motion.div>
@@ -134,4 +135,4 @@ export default function About() {
       </div>
     </section>
   );
-}  
+}
